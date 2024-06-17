@@ -1,7 +1,6 @@
-/* 9. Use this URL - https://example.com/api/data to make a fake fetch call and handle errors if any.
-Show a proper message to the user on the DOM, as per the status and message received from
-the server. A fakeFetch has been provided. Use HTML, CSS & JS template in REPL or Vanilla
-template in CodeSandbox for this question. */
+/* Use this URL - https://example.com/api/itemlist to make a fake fetch call and list out all the
+items as an ordered list on the DOM. A fakeFetch has been provided. Use HTML, CSS & JS
+template in REPL or Vanilla template in CodeSandbox for this question */
 
 const fakeFetch = (url) => {
   return new Promise((resolve, reject) => {
